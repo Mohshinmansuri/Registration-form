@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Sriracha;
+}
+body{
+    font-family: sans-serif;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+}
+h1,h2{
+    color: white;
+}
+form{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    width: 50%;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.red{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+
+}
+.btn{
+    background-image:linear-gradient(to right, black,white);
+    border-radius: 30px;
+    border: none;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn:active{
+    transition-duration: 0.5s;
+    height: 33px;
+    width: 110px;
+    color: white;
+}
+.submitMsg{
+    color: green;
+}
